@@ -1,11 +1,11 @@
 ---
 name: solana-anchor-claude-skill
-description: Apply Solana, Anchor, and TypeScript coding guidelines for this project including proper variable naming, avoiding magic numbers, using Array<T> syntax, and following Anchor 0.32.1 best practices
+description: Use when working on Solana Anchor programs, including Rust program files, TypeScript tests, and Anchor.toml configuration. Enforces coding guidelines like proper variable naming, avoiding magic numbers, using Array<T> syntax, and Anchor 0.32.1 best practices.
 ---
 
-# Solana Anchor Project Guidelines
+# Coding Guidelines
 
-Apply these rules when working on this Solana/Anchor project. These guidelines ensure code quality, maintainability, and adherence to project standards.
+Apply these rules to ensure code quality, maintainability, and adherence to project standards.
 
 ## Success Criteria
 
