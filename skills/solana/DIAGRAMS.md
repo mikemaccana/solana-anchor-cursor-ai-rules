@@ -157,7 +157,7 @@ Draw the glyphs exactly as specified - one vocabulary book-wide, no per-figure v
 ## A figure's height follows from its aspect ratio
 
 - **Keep `viewBox` height within 1.22 times its width.** A figure is reproduced at the text width, so height is fixed by the ratio: past about 1.22 it cannot fit the text block once the caption is counted. Paged.js then breaks the page inside the figure, and one over-tall figure spread itself across a dozen pages, nine of them blank. Roughly 75 of this book's 252 pages were that failure.
-- **Shrinking to fit is not available.** At the text width the scale is 0.646pt per unit, so a 7-unit seed label already prints at 4.52pt and 59% of all figure text is under 6pt. A figure that does not fit has to carry less or rearrange, never scale down.
+- **Shrinking to fit is not available.** At the text width the scale is 0.612pt per unit, so a 7-unit seed label already prints at 4.28pt and most figure text is under 6pt. A figure that does not fit has to carry less or rearrange, never scale down.
 - **Look for the dead band before cutting content.** The vault flow figures ran an eight-box column down the right side while the middle was empty for 360 units. Moving three boxes into that space took 913 units to 716 and lost nothing.
 
 ## Numbered step labels
